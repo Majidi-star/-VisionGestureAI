@@ -1,82 +1,71 @@
-VisionGesture AI: Advanced System Control & Telemetry
-Bilingual Documentation: English | فارسی
+# 🚀 VisionGesture AI: Advanced System Control & Telemetry
+> **Bilingual Documentation: [English](#english) | [فارسی](#فارسی)**
+
+---
 
 <a name="english"></a>
+## 🇺🇸 English Version
 
-🇺🇸 English Version
-VisionGesture AI is a high-performance Human-Computer Interaction (HCI) desktop application designed for real-time system-level control through computer vision. By leveraging advanced hand landmark detection, it transforms physical movements into digital commands, providing a touchless interface for system tasks like volume management.
+VisionGesture AI is a high-performance **Human-Computer Interaction (HCI)** tool designed for real-time system-level control via Computer Vision. By leveraging advanced landmark detection, it transforms physical hand gestures into digital commands, providing a touchless interface for Windows volume management.
 
-📸 App Preview
+---
+
+## 📸 App Preview
 <p align="center">
-
+  <img src="https://socialify.git.ci/YourGitHubUsername/VisionGesture-AI/image?description=1&descriptionEditable=Advanced%20Hand%20Telemetry%20%26%20Volume%20Control&font=Inter&name=1&owner=1&pattern=Circuit%20Board&theme=Dark" width="800" alt="Project Banner">
 </p>
 
-✨ Key Features
-🎯 Precision Tracking: Real-time tracking of 21 hand landmarks with high-frequency updates using MediaPipe.
+---
 
-🔊 Gesture Audio Control: Intuitively manage Windows system volume by adjusting the distance between the thumb and index finger.
+### ✨ Key Features
+* **🎯 Precision Tracking**: Real-time tracking of 21 hand landmarks using MediaPipe.
+* **🔊 Gesture Audio Control**: Intuitively manage system volume by adjusting the distance between the thumb and index finger.
+* **📊 Live Telemetry HUD**: Features a professional sidebar dashboard displaying Euclidean distance metrics, FPS, and volume mapping.
+* **🛡️ Smart Data Filtering**: Uses linear interpolation and smoothing to ensure stable, jitter-free system adjustments.
+* **⚡ High Performance**: Optimized for PC environments, ensuring high FPS during processing.
 
-📊 Live Telemetry HUD: Professional sidebar dashboard displaying Euclidean distance metrics, FPS, and volume mapping percentages.
+### 🛠️ Tech Stack
+* **Language**: Python 3.11 (Highly recommended for library stability).
+* **CV Engine**: MediaPipe, OpenCV.
+* **OS Bridge**: Pycaw (Python Computer Audio Utilities).
+* **Mathematics**: NumPy (Used for linear mapping and coordinate normalization).
 
-🛡️ Smart Data Filtering: Integrated linear interpolation (Lerp) and smoothing to ensure stable, jitter-free system adjustments.
-
-🛠️ Tech Stack
-Language: Python 3.11 (Optimized for MediaPipe Stability).
-
-CV Engine: MediaPipe, OpenCV.
-
-OS Bridge: Pycaw (Python Computer Audio Utilities).
-
-Mathematics: NumPy (Linear Interpolation & Mapping).
+---
 
 <a name="فارسی"></a>
+## 🇮🇷 نسخه فارسی
 
-🇮🇷 نسخه فارسی
-VisionGesture AI یک اپلیکیشن دسکتاپ پیشرفته در حوزه تعامل انسان و کامپیوتر (HCI) است که برای کنترل پارامترهای سیستمی از طریق بینایی ماشین طراحی شده است. این برنامه با استفاده از تشخیص دقیق مفصل‌های دست، حرکات فیزیکی را به دستورات دیجیتالی تبدیل کرده و یک رابط کاربری بدون لمس برای مدیریت ویندوز (مانند کنترل صدا) فراهم می‌کند.
+**VisionGesture AI** یک ابزار پیشرفته در حوزه **تعامل انسان و کامپیوتر (HCI)** است که برای کنترل پارامترهای سیستمی از طریق بینایی ماشین طراحی شده است. این برنامه با ردیابی دقیق نقاط کلیدی دست، حرکات فیزیکی را به دستورات دیجیتالی (مانند مدیریت صدای ویندوز) تبدیل می‌کند.
 
-📸 پیش‌نمایش برنامه
-<p align="center">
+---
 
-</p>
+### ✨ قابلیت‌های کلیدی
+* **🎯 ردیابی دقیق**: شناسایی و ردیابی زنده ۲۱ نقطه کلیدی دست با استفاده از MediaPipe.
+* **🔊 کنترل صوتی با اشاره**: مدیریت هوشمند صدای سیستم از طریق تغییر فاصله بین انگشت شست و اشاره.
+* **📊 داشبورد تلمتری زنده**: دارای نمایشگر HUD حرفه‌ای برای تحلیل لحظه‌ای فاصله اقلیدسی، نرخ فریم (FPS) و درصد نگاشت صدا.
+* **🛡️ فیلتر هوشمند داده‌ها**: پیاده‌سازی فیلترهای نرم‌کننده برای جلوگیری از لرزش و پرش‌های ناخواسته در خروجی.
+* **⚡ کارایی بالا**: بهینه‌سازی شده برای اجرا روی PC با نرخ فریم بالا.
 
-✨ قابلیت‌های کلیدی
-🎯 ردیابی دقیق: شناسایی و ردیابی زنده ۲۱ نقطه کلیدی دست با فرکانس بالا با استفاده از MediaPipe.
+---
 
-🔊 کنترل صوتی با اشاره: مدیریت هوشمند ولوم صدای ویندوز از طریق تغییر فاصله بین انگشت شست و اشاره.
+### 🛠️ تکنولوژی‌های استفاده شده
+* **زبان برنامه نویسی**: پایتون ۳.۱۱ (بهترین نسخه برای پایداری کتابخانه‌ها).
+* **موتور بینایی ماشین**: MediaPipe, OpenCV.
+* **ارتباط با سیستم‌عامل**: Pycaw (برای کنترل مستقیم صدای ویندوز).
 
-📊 داشبورد تلمتری زنده: نمایشگر حرفه‌ای HUD برای تحلیل لحظه‌ای فاصله اقلیدسی، نرخ فریم (FPS) و درصد نگاشت صدا.
+---
 
-🛡️ فیلتر هوشمند داده‌ها: پیاده‌سازی درون‌یابی خطی و فیلترهای نرم‌کننده برای جلوگیری از لرزش و پرش‌های ناخواسته صدا.
+## 🚀 Setup & Installation / راهنمای نصب
 
-🛠️ تکنولوژی‌های استفاده شده
-زبان برنامه نویسی: پایتون ۳.۱۱ (بهینه شده برای پایداری MediaPipe).
+### 1. Requirements | پیش‌نیازها
+* **OS**: Windows (Required for Pycaw integration).
+* **Python**: 3.11 or 3.12 (Python 3.13 is currently not supported for MediaPipe).
 
-موتور بینایی ماشین: MediaPipe, OpenCV.
-
-ارتباط با سیستم‌عامل: Pycaw (کنترل مستقیم لایه صوتی ویندوز).
-
-محاسبات ریاضی: NumPy (برای محاسبات هندسی و نگاشت داده‌ها).
-
-🚀 Setup & Installation / راهنمای نصب
-Clone the repository / کلون کردن پروژه:
-
-Bash
-
-git clone https://github.com/yourusername/VisionGesture-AI.git
+### 2. Installation | نصب
+```bash
+# Clone the repository
+git clone [https://github.com/YourUsername/VisionGesture-AI.git](https://github.com/YourUsername/VisionGesture-AI.git)
 cd VisionGesture-AI
-Environment Setup / آماده‌سازی محیط:
 
-It is highly recommended to use Python 3.11 for library compatibility.
-
-اکیداً توصیه می‌شود برای سازگاری کامل کتابخانه‌ها از پایتون ۳.۱۱ استفاده کنید.
-
-Install Dependencies / نصب کتابخانه‌ها:
-
-Bash
-
+# Install dependencies
 pip install opencv-python mediapipe pycaw comtypes numpy
-Run the App / اجرای برنامه:
-
-Bash
-
-python main.py
