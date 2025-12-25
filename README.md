@@ -12,7 +12,11 @@ VisionGesture AI is a high-performance **Human-Computer Interaction (HCI)** desk
 
 ## 📸 App Preview
 <p align="center">
-  <img src="https://socialify.git.ci/YourGitHubUsername/VisionGesture-AI/image?description=1&descriptionEditable=Advanced%20Hand%20Telemetry%20%26%20Volume%20Control&font=Inter&name=1&owner=1&pattern=Circuit%20Board&theme=Dark" width="800" alt="Project Banner">
+  
+
+https://github.com/user-attachments/assets/180070af-b922-4ace-9d2b-a8f16fcfce9b
+
+
 </p>
 
 ---
